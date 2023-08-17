@@ -15,6 +15,7 @@ export default function Update({students,setStudents}) {
        
         useEffect(()=>{
           console.log(id);
+        
           setName(editStudent.name)
           setEmail(editStudent.email)
           setCountry(editStudent.country)
@@ -30,6 +31,7 @@ export default function Update({students,setStudents}) {
           state : state,
           phone:phone
          } 
+         
          students[id]= editData
          setStudents([...students])
          history.push("/");
