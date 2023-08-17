@@ -1,0 +1,119 @@
+
+
+.base-design{
+ display: flex;
+ flex-direction: row;
+ width: 75vw;
+ height: 100vh;
+
+}
+
+.left-content{
+  padding-top: 25px;
+  width: 20vw;
+  border: 1px solid black;
+  height: 205vh;
+  background-color: blue;
+  position: fixed;
+  
+  
+  
+}
+.right-content{
+  
+  
+  
+  margin-top: 15vh;
+  padding-top: 25px;
+  position: absolute;
+  height: 90vh;
+  margin-left: 25vw;
+  width: 75vw;
+    
+}
+.font-style{
+  color: bisque;
+}
+.sidebar-brand{
+  color: bisque;
+}
+.sidebar-heading{
+  color: darkslategrey;
+}
+
+.sidebar-divider{
+  background-color:rgba(255, 255, 255, 0.945);
+}
+.collapse-header{
+  color: darkslategrey;
+}
+.collapse-item{
+  color: bisque;
+}
+
+.top-bar{
+  margin-left: 25vw;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  position: absolute;
+  width: 75vw;
+}
+.col-12{
+  margin-left: 25vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+.bg-light{
+  margin-top: 2px;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.btn-primary{
+  height: 7vh;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+}
+.col-3{
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-head{
+  display: flex;
+  flex-direction: row;
+  gap: 50vw;
+}
+.stud-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border: 1px solid black;
+  width: 200px;
+  height: 250px;
+  margin: 12px;
+  padding-left: 20px;
+  padding: 15px;
+
+
+}
+.card-container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+}
+.control{
+  padding-left: 20px;
+  padding-bottom:2px;
+}
+.stud-bar{
+  display: flex;
+  flex-direction: row;
+  gap: 55vw;
+}
+
+
